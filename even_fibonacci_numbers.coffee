@@ -9,7 +9,7 @@ newNum = 1
 total = 0
 
 while newNum < 4000000
-	newNum = num + newNum
+  newNum = num + newNum
 	num = newNum - num
 	total += newNum if newNum % 2 == 0
 
