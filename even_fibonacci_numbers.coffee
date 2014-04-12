@@ -10,7 +10,7 @@ total = 0
 
 while newNum < 4000000
   newNum = num + newNum
-	num = newNum - num
-	total += newNum if newNum % 2 == 0
+  num = newNum - num
+  total += newNum if newNum % 2 == 0
 
 console.log total
